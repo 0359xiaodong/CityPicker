@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:picker="http://schemas.android.com/apk/res/me.jp.citypicker"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <me.jp.citypicker.view.ScrollerNumberPicker
+        android:id="@+id/province"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        picker:itemNumber="3"
+        picker:lineColor="#ff5789DC"
+        picker:maskHight="32dp"
+        picker:noEmpty="true"
+        picker:normalTextColor="#777"
+        picker:normalTextSize="14sp"
+        picker:selecredTextColor="#ff000000"
+        picker:selecredTextSize="22sp"
+        picker:unitHight="50dp" />
+
+    <me.jp.citypicker.view.ScrollerNumberPicker
+        android:id="@+id/city"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        picker:itemNumber="3"
+        picker:lineColor="#ff5789DC"
+        picker:maskHight="32dp"
+        picker:noEmpty="true"
+        picker:normalTextColor="#777"
+        picker:normalTextSize="14sp"
+        picker:selecredTextColor="#ff000000"
+        picker:selecredTextSize="22sp"
+        picker:unitHight="50dp" />
+
+</LinearLayout>
