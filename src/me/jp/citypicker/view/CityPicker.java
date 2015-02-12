@@ -64,7 +64,7 @@ public class CityPicker extends LinearLayout {
 		cityPicker = (ScrollerNumberPicker) findViewById(R.id.city);
 
 		provincePicker.setData(mProvinceList);
-		provincePicker.setDefault(1);
+		provincePicker.setDefault(0);
 
 		cityPicker.setData(mAreaUtil.getCitysByProvince(DEFUALT_PROVINCE));
 		cityPicker.setDefault(1);
